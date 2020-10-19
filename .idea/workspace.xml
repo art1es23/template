@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f858d7f-f861-42d0-b8d3-52b495022cc3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ipIlKuMRp5cFIinVYMLvFMcEUc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GulpAMPTemplate" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulp" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f858d7f-f861-42d0-b8d3-52b495022cc3" name="Default Changelist" comment="" />
+      <created>1602598259007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602598259007</updated>
+      <workItem from="1602598261667" duration="3835000" />
+      <workItem from="1602661373238" duration="8093000" />
+      <workItem from="1603093461873" duration="18173000" />
+      <workItem from="1603113974451" duration="1803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2627" y="332" width="495" height="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603109922254">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2627" y="332" width="495" height="409" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603109922254" />
+    <state x="2663" y="297" width="424" height="479" key="FileChooserDialogImpl" timestamp="1603098200006">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="297" width="424" height="479" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603098200006" />
+    <state x="1982" y="275" width="824" height="519" key="IDE.errors.dialog" timestamp="1602664609952">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1982" y="275" width="824" height="519" key="IDE.errors.dialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1602664609952" />
+    <state x="2063" y="247" key="run.anything.popup" timestamp="1603107564848">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2063" y="247" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603107564848" />
+    <state x="2062" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1603107563469">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2062" y="237" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603107563469" />
+  </component>
+</project>
