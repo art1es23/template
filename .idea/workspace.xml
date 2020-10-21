@@ -3,8 +3,50 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f858d7f-f861-42d0-b8d3-52b495022cc3" name="Default Changelist" comment="" />
+    <list default="true" id="1f858d7f-f861-42d0-b8d3-52b495022cc3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/events.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/events.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/fs.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/fs.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/fs/promises.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/fs/promises.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/http.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/http.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ResolverFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ResolverFactory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Minotaur_01_Dying_000.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mino.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/libs/pixi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/helpers/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/helpers/_fonts.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.sass" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ipIlKuMRp5cFIinVYMLvFMcEUc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,7 +72,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GulpAMPTemplate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -46,33 +91,68 @@
       <workItem from="1602598261667" duration="3835000" />
       <workItem from="1602661373238" duration="8093000" />
       <workItem from="1603093461873" duration="18173000" />
-      <workItem from="1603113974451" duration="1803000" />
+      <workItem from="1603113974451" duration="2603000" />
+      <workItem from="1603118002920" duration="2025000" />
+      <workItem from="1603120053446" duration="2136000" />
+      <workItem from="1603126948248" duration="9843000" />
+      <workItem from="1603178691062" duration="10929000" />
+      <workItem from="1603192694330" duration="643000" />
+      <workItem from="1603196302012" duration="1640000" />
+      <workItem from="1603198061069" duration="1668000" />
+      <workItem from="1603199749466" duration="246000" />
+      <workItem from="1603200015147" duration="684000" />
+      <workItem from="1603200718191" duration="1190000" />
+      <workItem from="1603201936905" duration="778000" />
+      <workItem from="1603202742000" duration="1329000" />
+      <workItem from="1603204539905" duration="2090000" />
+      <workItem from="1603218389344" duration="68000" />
+      <workItem from="1603286402551" duration="1270000" />
+      <workItem from="1603287708803" duration="1170000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2627" y="332" width="495" height="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603109922254">
+    <state x="2627" y="332" width="529" height="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603196933304">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2627" y="332" width="495" height="409" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603109922254" />
-    <state x="2663" y="297" width="424" height="479" key="FileChooserDialogImpl" timestamp="1603098200006">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="2627" y="332" width="529" height="409" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603196933304" />
+    <state x="743" y="297" width="424" height="479" key="FileChooserDialogImpl" timestamp="1603218407515">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="743" y="297" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603218407515" />
     <state x="2663" y="297" width="424" height="479" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603098200006" />
     <state x="1982" y="275" width="824" height="519" key="IDE.errors.dialog" timestamp="1602664609952">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1982" y="275" width="824" height="519" key="IDE.errors.dialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1602664609952" />
-    <state x="2063" y="247" key="run.anything.popup" timestamp="1603107564848">
+    <state x="2587" y="138" width="585" height="801" key="find.popup" timestamp="1603187550547">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2063" y="247" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603107564848" />
-    <state x="2062" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1603107563469">
+    <state x="2587" y="138" width="585" height="801" key="find.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603187550547" />
+    <state x="2063" y="247" key="run.anything.popup" timestamp="1603198635125">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2062" y="237" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603107563469" />
+    <state x="143" y="247" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603134588225" />
+    <state x="2063" y="247" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603198635125" />
+    <state x="2062" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1603198634834">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="142" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603134586773" />
+    <state x="2062" y="237" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603198634834" />
   </component>
 </project>

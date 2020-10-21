@@ -50,7 +50,7 @@ const  styles = () => {
 }
 
 const htmlInclude =  () => {
-    return src(['./src/index.html'])
+    return src(['./src/*.html'])
         .pipe(fileInclude({
             prefix: '@',
             basepath: '@file'
@@ -60,7 +60,7 @@ const htmlInclude =  () => {
 }
 
 const imgMove = () => {
-    return src(['./src/img/*.jpg', './src/img/*.jpeg', './src/img/*.png'])
+    return src(['./src/img/*.jpg', './src/img/*.jpeg', './src/img/*.png', './src/img/*.json'])
         .pipe(dest('./build/img/'));
 }
 
@@ -73,7 +73,7 @@ const svgSprites = () => {
                 }
             }
         }))
-        .pipe(dest('./build/img/svg/'));
+        .pipe(dest('./build/img/'));
 }
 
 const resourcesMove = () => {
@@ -90,28 +90,75 @@ const fonts = () => {
         .pipe(dest('./build/fonts/'));
 }
 
+const checkWeight = (fontname) => {
+    let weight = 400;
+    switch (true) {
+        case /Thin/.test(fontname):
+            weight = 100;
+            break;
+        case /ExtraLight/.test(fontname):
+            weight = 200;
+            break;
+        case /Light/.test(fontname):
+            weight = 300;
+            break;
+        case /Regular/.test(fontname):
+            weight = 400;
+            break;
+        case /Medium/.test(fontname):
+            weight = 500;
+            break;
+        case /SemiBold/.test(fontname):
+            weight = 600;
+            break;
+        case /Semi/.test(fontname):
+            weight = 600;
+            break;
+        case /Bold/.test(fontname):
+            weight = 700;
+            break;
+        case /ExtraBold/.test(fontname):
+            weight = 800;
+            break;
+        case /Heavy/.test(fontname):
+            weight = 700;
+            break;
+        case /Black/.test(fontname):
+            weight = 900;
+            break;
+        default:
+            weight = 400;
+    }
+    return weight;
+}
+
 const cb = () => {}
 
+
 let srcFonts = './src/sass/helpers/_fonts.sass';
-let destFonts = './build/fonts/';
+let appFonts = './build/fonts/';
 
 const fontsStyle = (done) => {
     let file_content = fs.readFileSync(srcFonts);
 
     fs.writeFile(srcFonts, '', cb);
-    fs.readdir(destFonts, function (err, items) {
+    fs.readdir(appFonts, function (err, items) {
         if (items) {
             let c_fontname;
-            for (let i = 0; i < items.length; i++) {
+            for (var i = 0; i < items.length; i++) {
                 let fontname = items[i].split('.');
                 fontname = fontname[0];
+                let font = fontname.split('-')[0];
+                let weight = checkWeight(fontname);
+
                 if (c_fontname != fontname) {
-                    fs.appendFile(srcFonts, '@include font-face("' + fontname + '", "' + fontname + '", 400);\r\n', cb);
+                    fs.appendFile(srcFonts, '@include font-face("' + font + '", "' + fontname + '", ' + weight +')\r\n', cb);
                 }
                 c_fontname = fontname;
             }
         }
     })
+
     done();
 }
 
@@ -140,6 +187,10 @@ const scripts = () => {
                 ]
             }
         }))
+        .on('error', function (err) {
+            console.error('WEBPACK ERROR', err);
+            this.emit('end'); // Don't stop the rest of the task
+        })
         .pipe(sourcemaps.init())
         .pipe(uglify().on("error", notify.onError()))
         .pipe(sourcemaps.write('.'))
@@ -155,7 +206,7 @@ const server = () => {
         /*files: ['build/!*.html', 'build/!**!/!*.css', 'build/img/!*.*', 'build/!**!/!*.js']*/
     });
     watch('./src/sass/**/*.{scss,sass}', styles);
-    watch('./src/index.html', htmlInclude);
+    watch('./src/*.html', htmlInclude);
     watch('./src/img/**', imgMove);
     watch('./src/img/svg/*.svg', svgSprites);
     watch('./src/resources/**', resourcesMove);
@@ -175,13 +226,17 @@ exports.fontsStyle = fontsStyle;
 exports.clean = clean;
 exports.scripts = scripts;
 
+/*
+exports.default = series(clean, parallel(htmlInclude, scripts, imgMove), styles, server);
+*/
 exports.default = series(clean, parallel(htmlInclude, scripts, fonts, imgMove, svgSprites, resourcesMove), fontsStyle, styles, server);
 
 const tinyImages = () => {
     return src('images/src/**/*.{png,jpg,jpeg}')
         .pipe(tinyPNG({
             key: 'mpV6rftBN8Fc0cCB7LknY5y4ZfbyrPjc',
-            log: true
+            log: true,
+            parallelMax: 50
         }))
         .pipe(dest('./build/img/'));
 }
