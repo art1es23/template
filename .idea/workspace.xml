@@ -19,32 +19,17 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f858d7f-f861-42d0-b8d3-52b495022cc3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/events.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/events.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/fs.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/fs.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/fs/promises.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/fs/promises.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/http.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/http.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ResolverFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ResolverFactory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Minotaur_01_Dying_000.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mino.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/libs/pixi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/helpers/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/helpers/_fonts.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +92,9 @@
       <workItem from="1603204539905" duration="2090000" />
       <workItem from="1603218389344" duration="68000" />
       <workItem from="1603286402551" duration="1270000" />
-      <workItem from="1603287708803" duration="1170000" />
+      <workItem from="1603287708803" duration="1395000" />
+      <workItem from="1603380424318" duration="1198000" />
+      <workItem from="1603438216466" duration="706000" />
     </task>
     <servers />
   </component>
@@ -119,7 +106,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -144,15 +143,15 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2587" y="138" width="585" height="801" key="find.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603187550547" />
-    <state x="2063" y="247" key="run.anything.popup" timestamp="1603198635125">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="143" y="247" key="run.anything.popup" timestamp="1603380499595">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="143" y="247" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603134588225" />
+    <state x="143" y="247" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603380499595" />
     <state x="2063" y="247" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603198635125" />
-    <state x="2062" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1603198634834">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="142" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1603380497818">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="142" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603134586773" />
+    <state x="142" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603380497818" />
     <state x="2062" y="237" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603198634834" />
   </component>
 </project>
