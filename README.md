@@ -1,1 +1,1 @@
-my first normal commit!
+Gulp template for Landing page!
