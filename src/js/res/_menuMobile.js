@@ -1,5 +1,4 @@
 const menuMobile = () => {
-    console.log(document);
 
     const header = document.querySelector('.header');
     const nav = document.querySelector('.navigation');
@@ -10,15 +9,9 @@ const menuMobile = () => {
         header.classList.toggle('header--direction')
         menuToggle.classList.toggle('menu--toggle');
         nav.classList.toggle('navigation--active');
-
 /*
-        if (header.classList.contains('header--direction')) {
-
-        }
+        document.body.classList.toggle('scroll--hidden');
 */
-
-        console.log(evt)
-
     })
 
 }

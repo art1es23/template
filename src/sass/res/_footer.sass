@@ -25,17 +25,24 @@
       line-height: 2rem
       padding: 2rem 0
 
+.copyright
+  font-size: 1vw
+  margin: 2.5% 0
+  padding: 0
+
+@media screen and (max-width: 1600px)
   .copyright
-    font-size: 1.5rem
-    margin: 2.5% 0
-    padding: 0
+    font-size: 1.25vw
 
-  &__logo
-    width: 30%
-    font-size: 1.5rem
+@media screen and (max-width: 1224px)
+  .copyright
+    font-size: 1.5vw
 
+@media screen and (max-width: 900px)
+  .copyright
+    font-size: 2vw
 
 @media screen and (max-width: 768px)
-
   .copyright
+    font-size: 2.5vw
     text-align: center

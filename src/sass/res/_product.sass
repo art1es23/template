@@ -90,8 +90,11 @@
     .prod
       &__link
         font-size: 1.1vw
-        padding: 0.5rem 1rem
+        padding: 0.25rem 1rem
         width: 60%
+
+    .list-description__item
+      font-size: 1.2vw
 
 @media screen and (max-width: 1024px)
   .product
@@ -101,11 +104,18 @@
 @media screen and (max-width: 900px)
   .product
     &__title
-      font-size: 2.5vw
+      font-size: 2.25vw
+    .list-description__item
+      font-size: 1.15vw
+      padding: 0.25rem 0
 
 @media screen and (max-width: 480px)
   .product
+    width: 100%
+    margin: 5% 0
     &__title
-      font-size: 4.5vw
+      font-size: 5vw
     &__list
       margin: 1rem auto
+    .list-description__item
+      font-size: 3.25vw

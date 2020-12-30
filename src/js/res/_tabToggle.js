@@ -4,7 +4,6 @@ const tabsToggle = () => {
             e.preventDefault();
             const id = e.target.getAttribute('href').replace('#', '');
 
-            console.log('tabs: ', id);
             document.querySelectorAll('.tab-navigation__item').forEach(
                 (child) => child.classList.remove('tab-navigation__item--active')
             );

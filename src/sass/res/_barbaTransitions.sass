@@ -1,19 +1,23 @@
 @import "./src/sass/helpers/var"
 
-.prod-leave
-  opacity: 1
+.products-leave
+  clip-path: circle(100%)
   &-active
-    transition: opacity 1s linear
+    position: fixed
+    top: 0
+    left: 50%
+    transition: all 1s ease-in-out
   &-to
-    opacity: 0
+    clip-path: circle(0%)
 
-.prod-enter
+
+.products-enter
   clip-path: circle(0%)
   &-active
-    transition: all 1s ease-in-out
+    transition: all 1.5s ease-in-out
     position: fixed
-    top: var(--posY)
-    left: var(--posX)
+    top: 0
+    left: 50%
     z-index: 9999
   &-to
     clip-path: circle(100%)

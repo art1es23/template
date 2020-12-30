@@ -29,7 +29,6 @@ barba.hooks.afterLeave(data => {
 barba.hooks.enter(data => {
     window.scrollTo(0,0);
     let target = data.next.container;
-    console.log(target);
     menuMobile(target);
     modalOrder(target);
     tabToggle(target);
@@ -70,7 +69,7 @@ barba.init({
             },
         },
 
-        {
+/*        {
             name: 'fromProductsToItem',
             from: {
                 namespace: ['home','products']
@@ -127,14 +126,14 @@ barba.init({
 
                     zoom();
 
-                  /*  gsap
+                  /!*  gsap
                         .to(current.container, {
                             duration: 5,
                             onComplete: () => {
                                 zoom();
                                 resolve();
                             }
-                        })*/
+                        })*!/
                 });
             },
             once({next, current}) {
@@ -143,7 +142,21 @@ barba.init({
             enter({next}) {
                 enterPageProduct(next.container)
             }
+        },*/
+
+        {
+            name: 'products',
+            to: {
+              namespace: ['home','about','products','blog-post','blog','shop','downloads','contacts','prod']
+            },
+            once(data) {
+            },
+            enter(data) {
+            },
+            leave(data) {
+            }
         },
+
         {
             name: 'pageAbout',
             to: {
