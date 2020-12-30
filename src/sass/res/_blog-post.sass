@@ -1,0 +1,60 @@
+@import "./src/sass/helpers/var"
+
+.blog-post
+  padding: 0
+  display: flex
+  flex-direction: column
+  width: 31.5%
+  height: auto
+  border: 1px solid $white
+  justify-content: space-between
+  position: relative
+  background:
+    repeat: no-repeat
+    size: 100%
+    position: center
+  transition: all 0.3s ease-in-out
+
+  &:hover,
+  &:focus,
+  &:active
+    background-size: 105%
+
+  &__caption
+    position: absolute
+    top: 0
+    left: 0
+    padding: 5% 10%
+    font-size: 1.35vw
+    width: 100%
+    display: flex
+    align-items: center
+    height: 40%
+    background: rgba($white, 0.5)
+
+  &__link
+    margin-top: auto
+    position: absolute
+    bottom: 7.5%
+    right: 7.5%
+    width: 50%
+
+  &__img
+    float: right
+    width: 50%
+    margin-left: 2.5vw
+
+@media screen and (max-width: 1024px)
+  .blog-post
+    height: 15rem
+    &__caption
+      font-size: 1.35rem
+    &__link
+      padding: 0.75rem 1rem
+      align-self: center
+
+@media screen and (max-width: 480px)
+  .blog-post
+    &__img
+      width: 100%
+      margin: 1rem 0

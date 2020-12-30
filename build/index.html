@@ -2,212 +2,257 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Hello, AMPs</title>
+    <title>Vesuvio</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
-<body>
+<body data-barba="wrapper">
 
-    <header id="header" class="header">
-        <div class="logo">
-            <a href="" class="logo__link">
-                <span class="logo__icon"></span>
-                <span class="logo__caption">Trafalgar</span>
-            </a>
-        </div>
-        <nav class="navigation">
-            <ul class="navigation--wrapper">
-                <li class="navigation__item"><a href="" class="navigation__link">Link1</a></li>
-                <li class="navigation__item"><a href="" class="navigation__link">Link2</a></li>
-                <li class="navigation__item"><a href="" class="navigation__link">Link3</a></li>
-                <li class="navigation__item"><a href="" class="navigation__link">Link4</a></li>
-                <li class="navigation__item"><a href="" class="navigation__link">Link5</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div data-barba="container" data-barba-namespace="home" class="wrapper">
 
-    <main id="mainContent" class="main-content">
+        <header id="header" class="header">
+            <div class="logo">
+                <a href="#" class="logo__link img-wrapper">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
 
-        <section id="section1" class="hero">
-            <div class="container">
-                    <div class="hero--wrapper">
-                        <h1 class="hero__title">Virtual healthcare for you</h1>
-                        <p class="hero__description">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
-                        <a href="" class="link hero__link">Consult today</a>
+            <a class="menu"><span></span></a>
+
+            <nav class="navigation">
+                <ul class="navigation--wrapper">
+                    <li class="navigation__item"><a href="#" class="navigation__link">Головна</a></li>
+                    <li class="navigation__item"><a href="./about.html" class="navigation__link">Про нас</a></li>
+                    <li class="navigation__item">
+                        <a href="./products.html" class="navigation__link">Продукція</a>
+                        <ul class="submenu">
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Submenu Link</a>
+                                <ul>
+                                    <li><a href="">Dropdown link</a></li>
+                                    <li><a href="">Dropdown link</a></li>
+                                    <li><a href="">Dropdown link</a></li>
+                                    <li><a href="">Dropdown link</a></li>
+                                    <li><a href="">Dropdown link</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
+                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
+                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
+                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
+                        </ul>
+                    </li>
+                    <li class="navigation__item"><a href="./blog.html" class="navigation__link">Блог</a></li>
+                    <li class="navigation__item"><a href="./shop.html" class="navigation__link">Магазин</a></li>
+                    <li class="navigation__item"><a href="./downloads.html" class="navigation__link">Завантажити</a></li>
+                    <li class="navigation__item"><a href="./contacts.html" class="navigation__link">Контакти</a></li>
+                </ul>
+            </nav>
+
+            <div class="chooseLanguage">
+                <button class="chooseLanguage__item">UA</button>
+                <button class="chooseLanguage__item">RU</button>
+                <button class="chooseLanguage__item">EN</button>
+            </div>
+
+        </header>
+
+        <main id="mainContent" class="main-content">
+
+            <section id="section1" class="slider">
+                    <div class="slider--wrapper">
+                        <div class="slider__item img-wrapper activeSlide">
+                            <img src="./img/slide1.jpeg" alt="">
+                            <img src="./img/slide-product.png" alt="">
+                        </div>
+                        <div class="slider__item img-wrapper">
+                            <img src="./img/slide2.jpeg" alt="">
+                            <img src="./img/slide-product.png" alt="">
+                        </div>
+                        <div class="slider__item img-wrapper">
+                            <img src="./img/slide3.jpeg" alt="">
+                            <img src="./img/slide-product.png" alt="">
+                        </div>
+                        <a class="slider-btn__item btn--prev"><span class="arrow arrow__left"></span></a>
+                        <a class="slider-btn__item btn--next"><span class="arrow arrow__right"></span></a>
                     </div>
-                    <div class="hero__img">
-                        <img src="./img/section1.png" alt="">
+                    <div class="slider-dots--wrapper">
+                        <span class="slider-dots__item active"></span>
+                        <span class="slider-dots__item"></span>
+                        <span class="slider-dots__item"></span>
                     </div>
-                </div>
-        </section>
+            </section>
 
-        <section id="section2" class="services">
-            <div class="container">
-                <div class="services--wrapper">
-                    <h2 class="title services__title">Our services</h2>
-                    <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eos, ex facere labore magni maxime odit possimus quia rerum similique temporibus, velit veniam. Eum, magnam odio. A accusamus magni vel!</p>
-
-                    <div class="services__box services-group">
-                        <div class="services-group__item">
-                            <div class="services-group__icon"></div>
-                            <h3 class="services-group__title">Search doctor</h3>
-                            <p class="services-group__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus harum illum, pariatur reiciendis sint voluptas.</p>
+            <section class="out-turn">
+                    <div class="out-turn--wrapper">
+                        <div class="hero">
+                            <div class="hero__img img-wrapper"><img src="./img/hero-img.png" alt=""></div>
+                            <h2 class="hero__title">Особливості продукту</h2>
+                            <p class="hero__description">Оливкова олія не дарма вважається одним з найбільш корисних продуктів. Оливкова олія - рослинна олія, що виготовляється з плодів європейської маслини. Назва маслини, власне, і означає "масна", а оливи та оливок - "ті, що містять олію", "олійні". За жирнокислотним складом оливкова олія є сумішшю тригліцеридів жирних кислот з дуже високим вмістом ефірів олеїнової кислоти.</p>
                         </div>
-                        <div class="services-group__item">
-                            <div class="services-group__icon"></div>
-                            <h3 class="services-group__title">Search doctor</h3>
-                            <p class="services-group__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus harum illum, pariatur reiciendis sint voluptas.</p>
-                        </div>
-                        <div class="services-group__item">
-                            <div class="services-group__icon"></div>
-                            <h3 class="services-group__title">Search doctor</h3>
-                            <p class="services-group__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus harum illum, pariatur reiciendis sint voluptas.</p>
-                        </div>
-                        <div class="services-group__item">
-                            <div class="services-group__icon"></div>
-                            <h3 class="services-group__title">Search doctor</h3>
-                            <p class="services-group__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus harum illum, pariatur reiciendis sint voluptas.</p>
-                        </div>
-                        <div class="services-group__item">
-                            <div class="services-group__icon"></div>
-                            <h3 class="services-group__title">Search doctor</h3>
-                            <p class="services-group__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus harum illum, pariatur reiciendis sint voluptas.</p>
-                        </div>
-                        <div class="services-group__item">
-                            <div class="services-group__icon"></div>
-                            <h3 class="services-group__title">Search doctor</h3>
-                            <p class="services-group__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Ducimus harum illum, pariatur reiciendis sint voluptas.</p>
-                        </div>
-                    </div>
 
-                    <a href="" class="link services__link">Learn more</a>
-
-                </div>
-            </div>
-        </section>
-
-        <section id="section3" class="providers">
-            <div class="providers__img">
-                <img src="./img/section3.png" alt="">
-            </div>
-
-            <div class="providers--wrapper">
-                <h2 class="providers__title">Leading healthcare providers</h2>
-                <p class="providers__description">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver</p>
-                <a href="" class="link providers__link">Consult today</a>
-            </div>
-        </section>
-        <section id="section4" class="downloads">
-            <div class="downloads--wrapper">
-                <h2 class="downloads__title">Download our mobile apps</h2>
-                <p class="downloads__description">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
-                <a href="" class="link downloads__link">Consult today</a>
-            </div>
-
-            <div class="downloads__img">
-                <img src="./img/section4.png" alt="">
-            </div>
-        </section>
-        <section id="section5" class="slider">
-            <div class="container">
-                <div class="some">
-
-                    SLIDER
-
-                </div>
-            </div>
-        </section>
-        <section id="section6" class="news">
-            <div class="container">
-                <div class="news--wrapper">
-                    <div class="news__title">Check out our latest article</div>
-                    <div class="news__box news-group">
-                        <article class="news-group__item news-article">
-                            <div class="news-article__img"><img src="./img/article1.jpg" alt=""></div>
-                            <div class="news-article--wrapper">
-                                <h3 class="news-article__title">Disease detection, check up in the laboratory</h3>
-                                <p class="news-article__description">In this case, the role of the health laboratory is very important to do a disease detection...</p>
-                                <a href="" class="news-article__link">Read more</a>
+                        <div class="new-product">
+                            <span class="new-product__caption img-wrapper">
+                                <img src="./img/new.png" alt="">
+                            </span>
+                            <div class="new-product--wrapper">
+                                <h2 class="new-product__title">Оливкова олія</h2>
+                                <p class="new-product__description">Це повинен бути холодний віджим - cold extraction - така олія не піддається жодній термічній обробці і зберігає максимум корисних речовин. Також, якщо використовується ранній збір оливок - early harvest - це дає більш інтенсивний смак. Усі ці параметри повинні бути вказані на упаковці продукту.</p>
+                                <a href="" class="link new-product__link">Дивитись</a>
                             </div>
-                        </article>
-                        <article class="news-group__item news-article">
-                            <div class="news-article__img"><img src="./img/article1.jpg" alt=""></div>
-                            <div class="news-article--wrapper">
-                                <h3 class="news-article__title">Disease detection, check up in the laboratory</h3>
-                                <p class="news-article__description">In this case, the role of the health laboratory is very important to do a disease detection...</p>
-                                <a href="" class="news-article__link">Read more</a>
-                            </div>
-                        </article>
-                        <article class="news-group__item news-article">
-                            <div class="news-article__img"><img src="./img/article1.jpg" alt=""></div>
-                            <div class="news-article--wrapper">
-                                <h3 class="news-article__title">Disease detection, check up in the laboratory</h3>
-                                <p class="news-article__description">In this case, the role of the health laboratory is very important to do a disease detection...</p>
-                                <a href="" class="news-article__link">Read more</a>
-                            </div>
-                        </article>
+                            <div class="new-product__img img-wrapper"><img src="./img/new-product.png" alt=""></div>
+                        </div>
                     </div>
-                    <a class="link news__link" href="">View all</a>
+            </section>
+
+            <section class="brands">
+                <div class="container">
+                    <div class="brands--wrapper">
+                        <div class="brands__item brands__description">
+                            <h2 class="brands__title">Наші бренди</h2>
+                            <p class="brands__text">ТзОВ "Везувіо" представляє продукцію торгових марок VesuVio, La Contadina, Castelli Romani, Contadina, Fontenovella, Fra Ulivo, Senorio de Segura на території України.</p>
+                        </div>
+                        <div class="brands__item brands-logo">
+                            <div class="brands-logo__item img-wrapper">
+                                <img src="./img/logo.png" alt="">
+                            </div>
+                            <div class="brands-logo__item img-wrapper">
+                                <img src="./img/brands1.png" alt="">
+                            </div>
+                            <div class="brands-logo__item img-wrapper">
+                                <img src="./img/brands2.png" alt="">
+                            </div>
+                            <div class="brands-logo__item img-wrapper">
+                                <img src="./img/brands3.png" alt="">
+                            </div>
+                            <div class="brands-logo__item img-wrapper">
+                                <img src="./img/brands4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </section>
+
+            <section class="health img-wrapper">
+    <!--
+                <div class="health__img">
+                    <img src="" alt="" class="health__img1">
+                    <img src="" alt="" class="health__img2">
+                </div>
+    -->
+
+                <img src="./img/health.png" alt="">
+<!--
+                <div class="health&#45;&#45;wrapper">
+                    <h2 class="health__title"><span>Always</span><span>health</span></h2>
+                    <ul class="health__list list-feature">
+                        <li class="list-feature__item"><span class="list-feature__icon"><img src="./img/mino.png" alt=""></span><span>Lorem ipsum dolor.</span></li>
+                        <li class="list-feature__item"><span class="list-feature__icon"><img src="./img/mino.png" alt=""></span><span>Lorem ipsum dolor.</span></li>
+                        <li class="list-feature__item"><span class="list-feature__icon"><img src="./img/mino.png" alt=""></span><span>Lorem ipsum dolor.</span></li>
+                        <li class="list-feature__item"><span class="list-feature__icon"><img src="./img/mino.png" alt=""></span><span>Lorem ipsum dolor.</span></li>
+                    </ul>
+                </div>
+-->
+
+            </section>
+
+            <section class="popular-products">
+                <div class="container">
+                    <h2 class="popular-products__title">The most popular products</h2>
+                    <div class="popular-products--wrapper">
+
+                        <a href="./prod.html" class="popular-products__item popular-products__item1">
+                            <h3 class="product__title">Al Aglio Spray (0.25)</h3>
+                            <ul class="product__list list-description">
+                                <li class="list-description__item"><span class="bold">Об'єм:</span><span>250 мл.</span></li>
+                                <li class="list-description__item"><span class="bold">Виробник:</span><span>VesuVio</span></li>
+                                <li class="list-description__item"><span class="bold">Країна виробник:</span><span>Італія</span><span class="country"></span></li>
+                            </ul>
+                        </a>
+                        <a href="./prod.html" class="popular-products__item popular-products__item2">
+                            <h3 class="product__title">Al Aglio Spray (0.25)</h3>
+                            <ul class="product__list list-description">
+                                <li class="list-description__item"><span class="bold">Об'єм:</span><span>250 мл.</span></li>
+                                <li class="list-description__item"><span class="bold">Виробник:</span><span>VesuVio</span></li>
+                                <li class="list-description__item"><span class="bold">Країна виробник:</span><span>Італія</span><span class="country"></span></li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about">
+                <div class="container">
+                    <div class="about--wrapper">
+                        <p class="about__caption">
+                            <span>100%</span>
+                            <span>Натуральна<br>оливкова олія</span>
+                        </p>
+                        <p class="about__description">Наша олія, виготовлена за всіма нормами</p>
+                        <a href="" class="link about__link">Дивитись</a></div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer id="footer" class="footer">
+            <div class="scroll-up">
+                <a href="" class="scroll-up__link"></a>
             </div>
-        </section>
 
-    </main>
+            <div class="footer--wrapper">
 
-    <footer id="footer" class="footer">
-        <div class="footer--wrapper">
-
-            <div class="footer__description description--wrapper">
-                <div class="footer__logo logo">
-                    <a href="" class="logo__link">
-                        <span class="logo__icon"></span>
-                        <span>Trafalgar</span>
-                    </a>
-                </div>
-
-                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                <ul class="footer__menu menu-links">
+                    <li class="menu-links__item">
+                        <h3 class="menu-links__title">Контакти</h3>
+                        <ul class="submenu-links">
+                            <li class="submenu-links__item">
+                                <span>T:</span>
+                                <a href="tel:+3802351047000">+38(023)510 47 00</a>
+                            </li>
+                            <li class="submenu-links__item">
+                                <span>E:</span>
+                                <a href="mail:info@gmail.com">info@gmail.com</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-links__item">
+                        <h3 class="menu-links__title">Розташування</h3>
+                        <ul class="submenu-links">
+                            <li class="submenu-links__item">3rd Km National</li>
+                            <li class="submenu-links__item">Road Katerini - Larissa</li>
+                            <li class="submenu-links__item">Greece</li>
+                        </ul>
+                    </li>
+                    <li class="menu-links__item">
+                        <h3 class="menu-links__title">Google Maps</h3>
+                        <ul class="submenu-links">
+                            <li class="submenu-links__item"><a href="">Open in maps</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-links__item">
+                        <h3 class="menu-links__title">Соціальні мережі</h3>
+                        <ul class="submenu-links social-menu">
+                            <li class="social-menu__item">
+                                <a class="social-menu__link facebook" href=""></a>
+                            </li>
+                            <li class="social-menu__item">
+                                <a class="social-menu__link reddit" href=""></a>
+                            </li>
+                            <li class="social-menu__item">
+                                <a class="social-menu__link instagram" href=""></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
 
                 <p class="copyright">&copy; qmpwwsd</p>
-            </div>
 
-            <ul class="footer__menu menu-links">
-                <li class="menu-links__item">
-                    <h3 class="menu-links__title">Company</h3>
-                    <ul class="submenu-links">
-                        <li class="submenu-links__item"><a href="">About</a></li>
-                        <li class="submenu-links__item"><a href="">Testimonials</a></li>
-                        <li class="submenu-links__item"><a href="">Find a doctor</a></li>
-                        <li class="submenu-links__item"><a href="">Apps</a></li>
-                    </ul>
-                </li>
-                <li class="menu-links__item">
-                    <h3 class="menu-links__title">Region</h3>
-                    <ul class="submenu-links">
-                        <li class="submenu-links__item"><a href="">Indonesia</a></li>
-                        <li class="submenu-links__item"><a href="">Singapore</a></li>
-                        <li class="submenu-links__item"><a href="">Hongkong</a></li>
-                        <li class="submenu-links__item"><a href="">Canada</a></li>
-                    </ul>
-                </li>
-                <li class="menu-links__item">
-                    <h3 class="menu-links__title">Help</h3>
-                    <ul class="submenu-links">
-                        <li class="submenu-links__item"><a href="">Help center</a></li>
-                        <li class="submenu-links__item"><a href="">Contact support</a></li>
-                        <li class="submenu-links__item"><a href="">Instructions</a></li>
-                        <li class="submenu-links__item"><a href="">How it works</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </footer>
+            </div>
+        </footer>
+    </div>
 
 <!--    <svg class="">
         <use xlink:href="./img/svg/sprite.svg#009-flamingo"></use>

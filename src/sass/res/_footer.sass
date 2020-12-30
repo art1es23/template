@@ -4,10 +4,13 @@
   width: 100%
   display: flex
   align-items: center
+  background-color: rgba($main-color, 1)
+  border-top: 3px solid rgba($olive, 0.5)
 
   &--wrapper
     display: flex
-    width: 75%
+    flex-direction: column
+    width: 85%
     margin: 0 auto
     padding: 5% 0
 
@@ -23,8 +26,16 @@
       padding: 2rem 0
 
   .copyright
+    font-size: 1.5rem
+    margin: 2.5% 0
     padding: 0
 
   &__logo
     width: 30%
     font-size: 1.5rem
+
+
+@media screen and (max-width: 768px)
+
+  .copyright
+    text-align: center

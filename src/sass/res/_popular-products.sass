@@ -1,0 +1,85 @@
+@import "./src/sass/helpers/var"
+@import "./src/sass/helpers/animations"
+
+.popular-products
+  display: flex
+  width: 100%
+  padding: 2.5% 0
+
+  &--wrapper
+    display: flex
+    width: 100%
+    justify-content: space-between
+    margin-top: 3%
+
+  &__item
+    display: flex
+    flex-direction: column
+    padding:
+      top: 7.5%
+      left: 20%
+      right: 5%
+      bottom: 7.5%
+    width: 47.5%
+    color: $white
+    justify-content: center
+    transition: $transition
+    animation: unScaleItem 0.25s ease-in-out forwards
+
+    &:hover,
+    &:focus,
+    &:active
+      box-shadow: 20px 7.5px 40px 2.5px rgba($black, 0.75)
+      animation: scaleItem 0.25s ease-in forwards
+
+
+  &__item1
+    background: transparent url("../img/vesuvio45.png") 10% center / contain no-repeat, url("../img/oil3.jpg") 50% 50% / cover no-repeat
+
+  &__item2
+    background: transparent url("../img/vesuvio49.png") 10% center / contain no-repeat, url("../img/oil.jpg") 50% 50% / cover no-repeat
+
+  &__title
+    display: flex
+    width: 100%
+    font-size: 4rem
+
+@media screen and (max-width: 1224px)
+  .popular-products
+    padding: 5% 0
+    &__item
+      width: 48.5%
+
+@media screen and (max-width: 1024px)
+  .popular-products
+    &__title
+      font-size: 5.5vw
+    &__item
+      padding-left: 15%
+
+    &__item1
+      background: transparent url("../img/vesuvio45.png") left center / 40% no-repeat, url("../img/oil3.jpg") 50% 50% / cover no-repeat
+
+    &__item2
+      background: transparent url("../img/vesuvio49.png") left center / 40% no-repeat, url("../img/oil.jpg") 50% 50% / cover no-repeat
+
+@media screen and (max-width: 900px)
+  .popular-products
+    &--wrapper
+      flex-direction: column
+      align-items: center
+    &__item
+      width: 70%
+      margin: 2.5% auto
+      padding-left: 25%
+
+@media screen and (max-width: 480px)
+  .popular-products
+    &--wrapper
+      margin-top: 5%
+    &__title
+      font-size: 2.5rem
+    &__item
+      width: 100%
+      margin: 2.5% auto
+      padding: 12.5% 5% 12.5% 31.5%

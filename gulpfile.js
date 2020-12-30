@@ -60,7 +60,7 @@ const htmlInclude =  () => {
 }
 
 const imgMove = () => {
-    return src(['./src/img/*.jpg', './src/img/*.jpeg', './src/img/*.png', './src/img/*.json'])
+    return src(['./src/img/*.jpg', './src/img/*.jpeg', './src/img/*.png', './src/img/*.json', './src/img/*.ico'])
         .pipe(dest('./build/img/'));
 }
 
